@@ -1,5 +1,5 @@
 import pytest
-import Animal
+from Animal import Animal
 
 def test_duck():
   a1 = Animal('duck', 'donald', 'quack')
