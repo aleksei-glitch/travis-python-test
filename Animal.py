@@ -17,5 +17,5 @@ class Animal:
         return self._sound
 
     def print_animal(self):
-         return 'The {} is named "{}" and says "{}".'.format(self.type(), self.name(), self.sound())
+         return 'The {} is named {} and says {}.'.format(self.type(), self.name(), self.sound())
         
